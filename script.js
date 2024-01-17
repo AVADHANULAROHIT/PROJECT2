@@ -23,6 +23,7 @@ function signup() {
     // For simplicity, let's display a success message if passwords match
     if (newPassword === reenterPassword) {
         alert('Account created successfully');
+          window.location.href = 'signup.html'; 
     } else {
         alert('Passwords do not match');
     }
