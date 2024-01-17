@@ -16,13 +16,14 @@
             <div id="login-form">
                  <h2>Login</h2>
                 <form id="login">
-                    <div id="u-name">
+                    <div id="u-name"  class="input-container">
                        <label for="username">Username:</label>
-                       <input type="text" id="username" required>
+                       <input type="text" id="username" placeholder="Enter your name" name="text" id="text"  class="input-field" autocomplete="name" required>
                     </div>
-                    <div id="password">
+                    <div >
+  
                         <label for="password">Password:</label>
-                        <input type="password" id="password" required>
+                        <input type="password" id="password" class="input-field" placeholder="password"required>
                     </div>
                     <div>
                     <button type="button" onclick="login()">Login</button>
@@ -35,21 +36,21 @@
             <div id="signup-form">
                 <h2>Signup</h2>
                 <form id="signup">
-                  <div id="N-UN">
+                  <div id="N-UN" class="input-container">
                     <label for="new-username">New Username: </label>
-                    <input type="text" id="new-username" required>
+                    <input type="text" id="new-username" placeholder="Enter your name" name="text" id="text"  class="input-field" autocomplete="name" required >
                    </div>
                    <div id="npass">
                     <label for="new-password">Enter Password: </label>
-                    <input type="password" id="new-password" required>
+                    <input type="password" placeholder=" New Password" id="new-password" class="input-field" required>
                     </div>
                       <div id="npass">
                     <label for="new-password">Renter Password: </label>
-                    <input type="password" id="new-password" required>
+                    <input type="password" placeholder="Renter Password" id="new-password" class="input-field" required>
                     </div>
                     <div id="npass">
                        <label for="new-dob">Date of Birth:  </label>
-                       <input type="date" id="dob" required>
+                       <input type="date" id="dob" class="input-field" required>
                     </div>
                     <button type="button" onclick="signup()">Signup</button>
                 </form>
