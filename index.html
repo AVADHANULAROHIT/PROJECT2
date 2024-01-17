@@ -1,0 +1,61 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Restaurant Website</title>
+</head>
+<body>
+ <div id="heading">
+        <h1>Welcome to Our Restaurant</h1>
+    <div> 
+      <div  class= "login-form">
+  
+            <div id="login-form">
+                 <h2>Login</h2>
+                <form id="login">
+                    <div id="u-name">
+                       <label for="username">Username:</label>
+                       <input type="text" id="username" required>
+                    </div>
+                    <div id="password">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div>
+                    <button type="button" onclick="login()">Login</button>
+                    </div>
+                </form>
+              </div>
+           </div> 
+            <div class= "signup-form" >
+               
+            <div id="signup-form">
+                <h2>Signup</h2>
+                <form id="signup">
+                  <div id="N-UN">
+                    <label for="new-username">New Username: </label>
+                    <input type="text" id="new-username" required>
+                   </div>
+                   <div id="npass">
+                    <label for="new-password">Enter Password: </label>
+                    <input type="password" id="new-password" required>
+                    </div>
+                      <div id="npass">
+                    <label for="new-password">Renter Password: </label>
+                    <input type="password" id="new-password" required>
+                    </div>
+                    <div id="npass">
+                       <label for="new-dob">Date of Birth:  </label>
+                       <input type="date" id="dob" required>
+                    </div>
+                    <button type="button" onclick="signup()">Signup</button>
+                </form>
+               </div>
+     
+ 
+    <script src="script.js"></script>
+</body>
+</html>
