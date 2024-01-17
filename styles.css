@@ -1,0 +1,68 @@
+
+/* styles.css */
+body {
+ font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient( to right, #22c1c3, #fdbb2d);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-form {
+border-radius: 60px;
+background: linear-gradient(145deg, #f6c4c4, #cfa5a5);
+box-shadow:  8px 8px 6px #a68484,
+             -8px -8px 6px #ffeaea;
+   align-items: center;
+   display: flex;
+    justify-content: center;
+    padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.signup-form{
+
+  border-radius: 60px;
+background: linear-gradient(145deg, #f6c4c4, #cfa5a5);
+box-shadow:  8px 8px 6px #a68484,
+             -8px -8px 6px #ffeaea;
+   align-items: center;
+   display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+   margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+   
