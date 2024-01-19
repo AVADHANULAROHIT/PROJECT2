@@ -17,6 +17,19 @@ background: #ccb3ea;
 box-shadow:  -29px 29px 2px #52485e,
              29px -29px 2px #ffffff;
     background-image: url('https://pixabay.com/photos/cafe-building-greece-3537801/');
+ 
+}
+pre{
+  width:auto;
+   height: auto;
+  justify-content: center;
+    align-items: center;
+ border-radius: 86px;
+background: #b388e7;
+box-shadow:  9px 9px 2px #715692,
+             -9px -9px 2px #f5baff;
+     margin-top: 5px;
+    margin-bottom: 15px;
 }
 div{
    margin-top: 5px;
@@ -36,8 +49,8 @@ box-shadow:  -29px 29px 2px #2b1d3d,
    display: flex;
     justify-content: center;
     padding: 10px;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 
 
 }
@@ -51,7 +64,7 @@ box-shadow:  -29px 29px 2px #2b1d3d,
     justify-content: center;
     justify-content: space-around;
     padding: 10px;
-   margin-top: 20px;
+   margin-top: 30px;
     margin-bottom: 30px;
 }
 .input-container {
@@ -121,8 +134,8 @@ form {
 }
 
 label {
-    margin-bottom: 5px;
-   margin-top: 5px;
+     margin-bottom: 5px;
+     margin-top: 5px;
 }
 
 .button {
