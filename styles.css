@@ -8,10 +8,16 @@ body {
     justify-content: center;
     align-items: center;
     height: auto;
-    background: linear-gradient( to right, #22c1c3, #fdbb2d);
-    background-repeat: no-repeat;
+/*     background: linear-gradient( to right, #22c1c3, #fdbb2d);
+    background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
+    border-radius: 86px;
+    background: #e5bdbd;
+    box-shadow: inset 33px 33px 66px #8c7373,
+            inset -33px -33px 66px #ffffff;
+    background-image: url('https://pixabay.com/photos/cafe-building-greece-3537801/');
+}
  
 }
 h1{
@@ -175,6 +181,21 @@ label {
 .type1:hover::before {
   transform: translateY(-50px) scale(0) rotate(150deg);
 }
+.button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+   margin-top: 10px;
+}
+
+.button:hover {
+  box-shadow: .5px .5px 150px #252525;
+}
 
 .type2::after {
   content: "Submit";
@@ -219,6 +240,10 @@ label {
 .type1:hover::before {
   transform: translateY(-50px) scale(0) rotate(150deg);
 }
+
+
+
+
 
 
 .group {
