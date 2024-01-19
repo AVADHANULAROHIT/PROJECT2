@@ -12,10 +12,10 @@ body {
     background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
-    border-radius: 86px;
-    background: #e5bdbd;
-    box-shadow: inset 33px 33px 66px #8c7373,
-            inset -33px -33px 66px #ffffff;
+   border-radius: 70px;
+background: #ccb3ea;
+box-shadow:  -29px 29px 2px #52485e,
+             29px -29px 2px #ffffff;
     background-image: url('https://pixabay.com/photos/cafe-building-greece-3537801/');
 }
 div{
@@ -28,10 +28,10 @@ h1{
   margin-top: 30px;
 }
 .login-form {
-border-radius: 60px;
-background: linear-gradient(145deg, #f6c4c4, #cfa5a5);
-box-shadow:  8px 8px 6px #a68484,
-             -8px -8px 6px #ffeaea;
+border-radius: 70px;
+background: #6c4899;
+box-shadow:  -29px 29px 2px #2b1d3d,
+             29px -29px 2px #ad73f5;
    align-items: center;
    display: flex;
     justify-content: center;
@@ -43,16 +43,15 @@ box-shadow:  8px 8px 6px #a68484,
 }
 .signup-form{
 
-  border-radius: 60px;
-background: linear-gradient(145deg, #f6c4c4, #cfa5a5);
-box-shadow:  8px 8px 6px #a68484,
-             -8px -8px 6px #ffeaea;
-   align-items: center;
+ border-radius: 70px;
+background: #6c4899;
+box-shadow:  -29px 29px 2px #2b1d3d,
+             29px -29px 2px #ad73f5;
    display: flex;
     justify-content: center;
     justify-content: space-around;
     padding: 10px;
-   margin-top: 10px;
+   margin-top: 20px;
     margin-bottom: 30px;
 }
 .input-container {
@@ -123,6 +122,7 @@ form {
 
 label {
     margin-bottom: 5px;
+   margin-top: 5px;
 }
 
 .button {
@@ -164,7 +164,7 @@ label {
   height: 50px;
   width: 150px;
   background-color: #fff;
-  color: #008080;
+  color: #33036d;
   position: absolute;
   top: 0%;
   left: 0%;
@@ -223,7 +223,7 @@ label {
   height: 50px;
   width: 150px;
   background-color: #fff;
-  color: #008080;
+  color: #33036d;
   position: absolute;
   top: 0%;
   left: 0%;
@@ -240,13 +240,9 @@ label {
   transform: translateY(0) scale(1.2);
 }
 
-.type1:hover::before {
+.type2:hover::before {
   transform: translateY(-50px) scale(0) rotate(150deg);
 }
-
-
-
-
 
 
 .group {
