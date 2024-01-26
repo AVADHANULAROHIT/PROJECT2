@@ -1,267 +1,267 @@
 
 /* styles.css */
 body {
- font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: 'Arial', sans-serif;
+     margin: 0;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: auto;
+ /*     background: linear-gradient( to right, #22c1c3, #fdbb2d);
+     background-repeat: no-repeat; */
+     background-position: center;
+     background-size: cover;
+    border-radius: 70px;
+ background: #ccb3ea;
+ box-shadow:  -29px 29px 2px #52485e,
+              29px -29px 2px #ffffff;
+     background-image: url('cafe-3537801_1920.jpg');
+  
+ }
+ pre{
+   width:auto;
     height: auto;
-/*     background: linear-gradient( to right, #22c1c3, #fdbb2d);
-    background-repeat: no-repeat; */
-    background-position: center;
-    background-size: cover;
-   border-radius: 70px;
-background: #ccb3ea;
-box-shadow:  -29px 29px 2px #52485e,
-             29px -29px 2px #ffffff;
-    background-image: url('https://pixabay.com/photos/cafe-building-greece-3537801/');
- 
-}
-pre{
-  width:auto;
-   height: auto;
-  justify-content: center;
-    align-items: center;
- border-radius: 86px;
-background: #b388e7;
-box-shadow:  9px 9px 2px #715692,
-             -9px -9px 2px #f5baff;
-     margin-top: 5px;
-    margin-bottom: 15px;
-}
-div{
-   margin-top: 5px;
-    margin-bottom: 5px;}
- 
-}
-h1{
-    margin-bottom: 30px;
-  margin-top: 30px;
-}
-.login-form {
-border-radius: 70px;
-background: #6c4899;
-box-shadow:  -29px 29px 2px #2b1d3d,
-             29px -29px 2px #ad73f5;
-   align-items: center;
-   display: flex;
-    justify-content: center;
-    padding: 10px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+   justify-content: center;
+     align-items: center;
+  border-radius: 86px;
+ background: #b388e7;
+ box-shadow:  9px 9px 2px #715692,
+              -9px -9px 2px #f5baff;
+      margin-top: 5px;
+     margin-bottom: 15px;
+ }
+ div{
+    margin-top: 5px;
+     margin-bottom: 5px;}
+  
 
-
-}
-.signup-form{
-
- border-radius: 70px;
-background: #6c4899;
-box-shadow:  -29px 29px 2px #2b1d3d,
-             29px -29px 2px #ad73f5;
-   display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding: 10px;
+ h1{
+     margin-bottom: 30px;
    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.input-container {
-  --c-text: rgb(50, 50, 80);
-  --c-bg: rgb(252, 252, 252);
-  --c-outline: rgb(55, 45 , 190);
-  display: inline;
-  gap: 1ch;
-  position: relative;
-  max-width: 190px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
-}
-
-.input-field {
-  padding: 0.5em 0.75em;
-  border-radius: 0.2em;
-  border: 1px solid var(--c-border, currentColor);
-  color: var(--c-text);
-  font-size: 1rem;
-  letter-spacing: 0.1ch;
-  width: 100%;
-}
-
-.input-field:not(:placeholder-shown) + .input-label {
-  transform: translateY(-220%);
-  opacity: 1;
-}
-
-.input-field:invalid {
-  --c-border: rgb(230, 85, 60);
-  --c-text: rgb(230, 85, 60);
-  --c-outline: rgb(230, 85, 60);
-}
-
-.input-field:is(:disabled, :read-only) {
-  --c-border: rgb(150, 150, 150);
-  --c-text: rgb(170, 170, 170);
-}
-
-.input-field:is(:focus, :focus-visible) {
-  outline: 2px solid var(--c-outline);
-  outline-offset: 2px;
-}
-
-.input-label {
-  --timing: 200ms ease-in;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transition: transform var(--timing),
-    opacity var(--timing);
-  transform: translateY(-50%);
-  opacity: 0;
-  color: var(--c-text);
-  font-weight: 500;
-}
-
-
-
-
-
-form {
+ }
+ .login-form {
+ border-radius: 70px;
+ background: #6c4899;
+ box-shadow:  -29px 29px 2px #2b1d3d,
+              29px -29px 2px #ad73f5;
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-label {
-     margin-bottom: 5px;
-     margin-top: 5px;
-}
-
-.button {
-  height: 50px;
-  width: 150px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.5s ease-in-out;
-   margin-top: 10px;
-}
-
-.button:hover {
-  box-shadow: .5px .5px 150px #252525;
-}
-
-.type1::after {
-  content: "Submit";
-  height: 50px;
-  width: 150px;
-  background-color: #008080;
-  color: #fff;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  transform: translateY(50px);
-  font-size: 1.2rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s ease-in-out;
-}
-
-.type1::before {
-  content: "Login";
-  height: 50px;
-  width: 150px;
-  background-color: #fff;
-  color: #33036d;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  transform: translateY(0px) scale(1.2);
-  font-size: 1.2rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s ease-in-out;
-}
-
-.type1:hover::after {
-  transform: translateY(0) scale(1.2);
-}
-
-.type1:hover::before {
-  transform: translateY(-50px) scale(0) rotate(150deg);
-}
-.button {
-  height: 50px;
-  width: 150px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.5s ease-in-out;
-   margin-top: 10px;
-}
-
-.button:hover {
-  box-shadow: .5px .5px 150px #252525;
-}
-
-.type2::after {
-  content: "Submit";
-  height: 50px;
-  width: 150px;
-  background-color: #008080;
-  color: #fff;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  transform: translateY(50px);
-  font-size: 1.2rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s ease-in-out;
-}
-
-.type2::before {
-  content: "Signup";
-  height: 50px;
-  width: 150px;
-  background-color: #fff;
-  color: #33036d;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  transform: translateY(0px) scale(1.2);
-  font-size: 1.2rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s ease-in-out;
-}
-
-.type2:hover::after {
-  transform: translateY(0) scale(1.2);
-}
-
-.type2:hover::before {
-  transform: translateY(-50px) scale(0) rotate(150deg);
-}
-
-
-.group {
-  display: flex;
-  line-height: 30px;
-  align-items: center;
-  position: relative;
-  max-width: 200px;
-}
+     justify-content: center;
+     padding: 10px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+ 
+ 
+ }
+ .signup-form{
+ 
+  border-radius: 70px;
+ background: #6c4899;
+ box-shadow:  -29px 29px 2px #2b1d3d,
+              29px -29px 2px #ad73f5;
+    display: flex;
+     justify-content: center;
+     justify-content: space-around;
+     padding: 10px;
+    margin-top: 30px;
+     margin-bottom: 30px;
+ }
+ .input-container {
+   --c-text: rgb(50, 50, 80);
+   --c-bg: rgb(252, 252, 252);
+   --c-outline: rgb(55, 45 , 190);
+   display: inline;
+   gap: 1ch;
+   position: relative;
+   max-width: 190px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: black;
+ }
+ 
+ .input-field {
+   padding: 0.5em 0.75em;
+   border-radius: 0.2em;
+   border: 1px solid var(--c-border, currentColor);
+   color: var(--c-text);
+   font-size: 1rem;
+   letter-spacing: 0.1ch;
+   width: 100%;
+ }
+ 
+ .input-field:not(:placeholder-shown) + .input-label {
+   transform: translateY(-220%);
+   opacity: 1;
+ }
+ 
+ .input-field:invalid {
+   --c-border: rgb(230, 85, 60);
+   --c-text: rgb(230, 85, 60);
+   --c-outline: rgb(230, 85, 60);
+ }
+ 
+ .input-field:is(:disabled, :read-only) {
+   --c-border: rgb(150, 150, 150);
+   --c-text: rgb(170, 170, 170);
+ }
+ 
+ .input-field:is(:focus, :focus-visible) {
+   outline: 2px solid var(--c-outline);
+   outline-offset: 2px;
+ }
+ 
+ .input-label {
+   --timing: 200ms ease-in;
+   position: absolute;
+   left: 0;
+   top: 50%;
+   transition: transform var(--timing),
+     opacity var(--timing);
+   transform: translateY(-50%);
+   opacity: 0;
+   color: var(--c-text);
+   font-weight: 500;
+ }
+ 
+ 
+ 
+ 
+ 
+ form {
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+ }
+ 
+ label {
+      margin-bottom: 5px;
+      margin-top: 5px;
+ }
+ 
+ .button {
+   height: 50px;
+   width: 150px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+   transition: all 0.5s ease-in-out;
+    margin-top: 10px;
+ }
+ 
+ .button:hover {
+   box-shadow: .5px .5px 150px #252525;
+ }
+ 
+ .type1::after {
+   content: "Submit";
+   height: 50px;
+   width: 150px;
+   background-color: #008080;
+   color: #fff;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   transform: translateY(50px);
+   font-size: 1.2rem;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.5s ease-in-out;
+ }
+ 
+ .type1::before {
+   content: "Login";
+   height: 50px;
+   width: 150px;
+   background-color: #fff;
+   color: #33036d;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   transform: translateY(0px) scale(1.2);
+   font-size: 1.2rem;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.5s ease-in-out;
+ }
+ 
+ .type1:hover::after {
+   transform: translateY(0) scale(1.2);
+ }
+ 
+ .type1:hover::before {
+   transform: translateY(-50px) scale(0) rotate(150deg);
+ }
+ .button {
+   height: 50px;
+   width: 150px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+   transition: all 0.5s ease-in-out;
+    margin-top: 10px;
+ }
+ 
+ .button:hover {
+   box-shadow: .5px .5px 150px #252525;
+ }
+ 
+ .type2::after {
+   content: "Submit";
+   height: 50px;
+   width: 150px;
+   background-color: #008080;
+   color: #fff;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   transform: translateY(50px);
+   font-size: 1.2rem;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.5s ease-in-out;
+ }
+ 
+ .type2::before {
+   content: "Signup";
+   height: 50px;
+   width: 150px;
+   background-color: #fff;
+   color: #33036d;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   transform: translateY(0px) scale(1.2);
+   font-size: 1.2rem;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.5s ease-in-out;
+ }
+ 
+ .type2:hover::after {
+   transform: translateY(0) scale(1.2);
+ }
+ 
+ .type2:hover::before {
+   transform: translateY(-50px) scale(0) rotate(150deg);
+ }
+ 
+ 
+ .group {
+   display: flex;
+   line-height: 30px;
+   align-items: center;
+   position: relative;
+   max-width: 200px;
+ }
