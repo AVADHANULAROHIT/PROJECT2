@@ -16,7 +16,7 @@ function login() {
 function signup() {
     var newUsername = document.getElementById('new-username').value;
     var newPassword = document.getElementById('new-password').value;
-    var reenterPassword = document.getElementById('reenter-password').value;
+    var reenterPassword = document.getElementById('confirm-password').value;
     var dob = document.getElementById('dob').value;
 
     // Add your signup verification logic here
