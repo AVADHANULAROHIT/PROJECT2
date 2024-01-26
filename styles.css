@@ -67,6 +67,22 @@ body {
     margin-top: 30px;
      margin-bottom: 30px;
  }
+.login-form:hover {
+
+mix-blend-mode: luminosity;
+   background: #FDA8CF; 
+  	flex-shrink: 1;
+  
+}
+
+
+.signup-form:hover {
+
+mix-blend-mode: luminosity;
+   background: #FDA8CF; 
+  	flex-shrink: 1;
+  
+}
  .input-container {
    --c-text: rgb(50, 50, 80);
    --c-bg: rgb(252, 252, 252);
